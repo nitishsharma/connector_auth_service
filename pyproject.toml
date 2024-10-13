@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "connection-auth-server"
+version = "0.1.0"
+description = ""
+authors = ["Nitish Sharma <nisharma@linkedin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.1"
+pydantic = "^2.9.2"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
